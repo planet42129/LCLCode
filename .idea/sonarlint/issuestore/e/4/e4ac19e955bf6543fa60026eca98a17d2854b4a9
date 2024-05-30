@@ -1,0 +1,9 @@
+
+X
+java:S1854+"<Remove this useless assignment to local variable "solution".(­ÿ±?8Í‚ŸÄû1
+I
+java:S1481+"-Remove this unused "solution" local variable.(­ÿ±?8Ï‚ŸÄû1
+Y
+java:S1172?"<Remove these unused method parameters "root", "low", "high".(æ¯Óš8 íˆÅû1
+X	java:S125M"<This block of commented-out lines of code should be removed.(æ¯Óš8Ñ‚ŸÄû1
+X	java:S125\"<This block of commented-out lines of code should be removed.(æ¯Óš8À½Åû1
