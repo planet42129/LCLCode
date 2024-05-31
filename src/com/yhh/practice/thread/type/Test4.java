@@ -18,7 +18,7 @@ public class Test4 {
         });
         thread.start();
         try {
-            Thread.sleep(20);
+            Thread.sleep(10);
             System.out.println(Thread.currentThread() + " end");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);

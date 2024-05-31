@@ -16,6 +16,12 @@ public class Test3 {
         };
         Thread thread = new Thread(runnable);
         thread.start();*/
+
+/*        Thread thread = new Thread(() -> {
+            for (int i = 0; i < 100; i++) {
+                System.out.println("MyRunnable__" + i);
+            }
+        });*/
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {

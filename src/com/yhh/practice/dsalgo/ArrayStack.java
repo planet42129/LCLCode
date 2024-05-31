@@ -19,10 +19,7 @@ public class ArrayStack {
         if (this.size == this.maxSize) {//扩容
             int capacity = (int)(this.maxSize * 1.5);
             int[] newData = new int[capacity];
-            for (int i = 0; i < newData.length; i++) {
-                if (i == this.maxSize) {
-                    break;
-                }
+            for (int i = 0; i < this.maxSize; i++) {
                 newData[i] = this.data[i];
             }
             this.data = newData;
